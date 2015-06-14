@@ -24,6 +24,18 @@ body {
     .circles-logo-main {
         width: 90%;
     }
+
+    .row2-col2 .media-body {
+        display: none;
+    }
+
+    .row2-col2 .media-right {
+        display: block;
+    }
+
+    .row2-col2 .media img {
+        margin: 0 auto;
+    }
 }
 
 /* SM */
@@ -79,9 +91,9 @@ body {
 
 #game-images-carousel {
     position: absolute;
-    top: 6.6%;
-    left: 12.2%;
-    width: 75.9%;
+    top: 6.56%;
+    left: 12.19%;
+    width: 75.98%;
 }
 
 .carousel-indicators {
@@ -113,6 +125,18 @@ body {
 
 .row2-col1, .row2-col2 {
     padding: 0px 20px 20px 20px;
+}
+
+.row2-col2 .panel {
+    margin-top: 20px;
+}
+
+.row2-col2 .media-body {
+    vertical-align: middle;
+}
+
+.row2-col2 .media-heading {
+    margin: 0;
 }
 
 footer {
